@@ -216,6 +216,70 @@
   }
 },
 {
+  "model": "service_development.voicelabel",
+  "pk": 34,
+  "fields": {
+    "name": "Forecast_24hours",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 35,
+  "fields": {
+    "name": "Forecast_3days",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 36,
+  "fields": {
+    "name": "Forecast_7days",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 37,
+  "fields": {
+    "name": "Forecast_HOT",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 38,
+  "fields": {
+    "name": "Crop_advice",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 39,
+  "fields": {
+    "name": "weather_alert",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 40,
+  "fields": {
+    "name": "end_call",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 41,
+  "fields": {
+    "name": "additional_services",
+    "description": null
+  }
+},
+{
   "model": "service_development.language",
   "pk": 1,
   "fields": {
@@ -942,6 +1006,150 @@
   }
 },
 {
+  "model": "service_development.voicefragment",
+  "pk": 90,
+  "fields": {
+    "parent": 34,
+    "language": 2,
+    "audio": "forecast24h_EN.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 91,
+  "fields": {
+    "parent": 34,
+    "language": 3,
+    "audio": "forecast24h_FR.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 92,
+  "fields": {
+    "parent": 35,
+    "language": 2,
+    "audio": "forecast3d_EN.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 93,
+  "fields": {
+    "parent": 35,
+    "language": 3,
+    "audio": "forecast3d_FR.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 94,
+  "fields": {
+    "parent": 36,
+    "language": 2,
+    "audio": "forecast7d_EN.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 95,
+  "fields": {
+    "parent": 36,
+    "language": 3,
+    "audio": "forecast7d_FR.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 96,
+  "fields": {
+    "parent": 37,
+    "language": 2,
+    "audio": "forecast_hot_EN.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 97,
+  "fields": {
+    "parent": 37,
+    "language": 3,
+    "audio": "forecast_hot_FR.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 98,
+  "fields": {
+    "parent": 38,
+    "language": 2,
+    "audio": "crop_advice_EN.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 99,
+  "fields": {
+    "parent": 38,
+    "language": 3,
+    "audio": "crop_advice_FR.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 100,
+  "fields": {
+    "parent": 39,
+    "language": 2,
+    "audio": "weather_alert_EN.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 101,
+  "fields": {
+    "parent": 39,
+    "language": 3,
+    "audio": "weather_alert_FR.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 102,
+  "fields": {
+    "parent": 40,
+    "language": 2,
+    "audio": "end_call_EN.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 103,
+  "fields": {
+    "parent": 40,
+    "language": 3,
+    "audio": "end_call_FR.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 104,
+  "fields": {
+    "parent": 41,
+    "language": 2,
+    "audio": "additional_services_EN.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 105,
+  "fields": {
+    "parent": 41,
+    "language": 3,
+    "audio": "additional_services_FR.wav"
+  }
+},
+{
   "model": "service_development.voiceservicesubelement",
   "pk": 6,
   "fields": {
@@ -959,7 +1167,7 @@
   "fields": {
     "service": 2,
     "creation_date": "2020-04-27T07:22:47.849Z",
-    "modification_date": "2020-04-27T07:22:47.849Z",
+    "modification_date": "2020-04-27T11:12:39.130Z",
     "name": "Welcome",
     "description": "",
     "voice_label": 27
@@ -1007,7 +1215,7 @@
   "fields": {
     "service": 2,
     "creation_date": "2020-04-27T07:24:04.868Z",
-    "modification_date": "2020-04-27T07:24:04.868Z",
+    "modification_date": "2020-04-27T11:18:25.267Z",
     "name": "Select timeframe",
     "description": "",
     "voice_label": 32
@@ -1019,7 +1227,7 @@
   "fields": {
     "service": 2,
     "creation_date": "2020-04-27T07:24:04.869Z",
-    "modification_date": "2020-04-27T07:24:04.870Z",
+    "modification_date": "2020-04-27T11:14:43.039Z",
     "name": "24 hours",
     "description": "",
     "voice_label": 30
@@ -1031,7 +1239,7 @@
   "fields": {
     "service": 2,
     "creation_date": "2020-04-27T07:24:04.870Z",
-    "modification_date": "2020-04-27T07:24:04.870Z",
+    "modification_date": "2020-04-27T11:14:43.040Z",
     "name": "3 days",
     "description": "",
     "voice_label": 28
@@ -1043,7 +1251,7 @@
   "fields": {
     "service": 2,
     "creation_date": "2020-04-27T07:24:04.870Z",
-    "modification_date": "2020-04-27T07:24:04.870Z",
+    "modification_date": "2020-04-27T11:14:43.040Z",
     "name": "7 days",
     "description": "",
     "voice_label": 29
@@ -1055,10 +1263,94 @@
   "fields": {
     "service": 2,
     "creation_date": "2020-04-27T07:24:50.970Z",
-    "modification_date": "2020-04-27T07:25:01.010Z",
+    "modification_date": "2020-04-27T11:47:08.052Z",
     "name": "Forecast",
     "description": "",
-    "voice_label": 2
+    "voice_label": 37
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 20,
+  "fields": {
+    "service": 2,
+    "creation_date": "2020-04-27T11:13:39.836Z",
+    "modification_date": "2020-04-27T11:32:13.730Z",
+    "name": "Forecast_week",
+    "description": "",
+    "voice_label": 36
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 21,
+  "fields": {
+    "service": 2,
+    "creation_date": "2020-04-27T11:13:55.963Z",
+    "modification_date": "2020-04-27T11:32:08.954Z",
+    "name": "Forecast_3days",
+    "description": "",
+    "voice_label": 35
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 22,
+  "fields": {
+    "service": 2,
+    "creation_date": "2020-04-27T11:14:14.410Z",
+    "modification_date": "2020-04-27T11:32:02.722Z",
+    "name": "Forecast_24hours",
+    "description": "",
+    "voice_label": 34
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 23,
+  "fields": {
+    "service": 2,
+    "creation_date": "2020-04-27T11:46:55.974Z",
+    "modification_date": "2020-04-27T11:46:55.974Z",
+    "name": "addtional_services",
+    "description": "",
+    "voice_label": 41
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 24,
+  "fields": {
+    "service": 2,
+    "creation_date": "2020-04-27T11:46:55.975Z",
+    "modification_date": "2020-04-27T11:46:55.975Z",
+    "name": "end call",
+    "description": "",
+    "voice_label": 40
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 25,
+  "fields": {
+    "service": 2,
+    "creation_date": "2020-04-27T11:46:55.976Z",
+    "modification_date": "2020-04-27T11:46:55.976Z",
+    "name": "crop advice",
+    "description": "",
+    "voice_label": 38
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 26,
+  "fields": {
+    "service": 2,
+    "creation_date": "2020-04-27T11:46:55.976Z",
+    "modification_date": "2020-04-27T11:46:55.976Z",
+    "name": "weather alert",
+    "description": "",
+    "voice_label": 39
   }
 },
 {
@@ -1084,6 +1376,26 @@
 {
   "model": "service_development.voiceserviceelement",
   "pk": 19,
+  "fields": {}
+},
+{
+  "model": "service_development.voiceserviceelement",
+  "pk": 20,
+  "fields": {}
+},
+{
+  "model": "service_development.voiceserviceelement",
+  "pk": 21,
+  "fields": {}
+},
+{
+  "model": "service_development.voiceserviceelement",
+  "pk": 22,
+  "fields": {}
+},
+{
+  "model": "service_development.voiceserviceelement",
+  "pk": 23,
   "fields": {}
 },
 {
@@ -1137,6 +1449,11 @@
   "fields": {}
 },
 {
+  "model": "service_development.choice",
+  "pk": 23,
+  "fields": {}
+},
+{
   "model": "service_development.choiceoption",
   "pk": 13,
   "fields": {
@@ -1157,7 +1474,7 @@
   "pk": 16,
   "fields": {
     "parent": 15,
-    "_redirect": null
+    "_redirect": 22
   }
 },
 {
@@ -1165,7 +1482,7 @@
   "pk": 17,
   "fields": {
     "parent": 15,
-    "_redirect": null
+    "_redirect": 21
   }
 },
 {
@@ -1173,7 +1490,31 @@
   "pk": 18,
   "fields": {
     "parent": 15,
-    "_redirect": null
+    "_redirect": 20
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 24,
+  "fields": {
+    "parent": 23,
+    "_redirect": 6
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 25,
+  "fields": {
+    "parent": 23,
+    "_redirect": 6
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 26,
+  "fields": {
+    "parent": 23,
+    "_redirect": 6
   }
 },
 {
@@ -1189,7 +1530,7 @@
   "pk": 11,
   "fields": {
     "final_element": false,
-    "_redirect": null
+    "_redirect": 12
   }
 },
 {
@@ -1197,7 +1538,31 @@
   "pk": 19,
   "fields": {
     "final_element": false,
-    "_redirect": 6
+    "_redirect": 23
+  }
+},
+{
+  "model": "service_development.messagepresentation",
+  "pk": 20,
+  "fields": {
+    "final_element": false,
+    "_redirect": 19
+  }
+},
+{
+  "model": "service_development.messagepresentation",
+  "pk": 21,
+  "fields": {
+    "final_element": false,
+    "_redirect": 19
+  }
+},
+{
+  "model": "service_development.messagepresentation",
+  "pk": 22,
+  "fields": {
+    "final_element": false,
+    "_redirect": 19
   }
 }
 ]
