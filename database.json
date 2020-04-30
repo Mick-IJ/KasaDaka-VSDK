@@ -1571,14 +1571,15 @@
     "name": "RainCheck",
     "description": "_",
     "creation_date": "2020-04-24T14:15:53.571Z",
-    "modification_date": "2020-04-27T07:22:56.018Z",
-    "active": false,
+    "modification_date": "2020-04-30T11:34:09.169Z",
+    "active": true,
     "_start_element": 11,
     "registration": "disabled",
     "registration_language": true,
     "registration_name": false,
     "supported_languages": [
-      2
+      2,
+      3
     ]
   }
 },
