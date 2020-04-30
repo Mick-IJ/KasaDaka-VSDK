@@ -280,6 +280,46 @@
   }
 },
 {
+  "model": "service_development.voicelabel",
+  "pk": 42,
+  "fields": {
+    "name": "Bassi",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 43,
+  "fields": {
+    "name": "Boussou",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 45,
+  "fields": {
+    "name": "Gourcy",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 46,
+  "fields": {
+    "name": "Leba",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 48,
+  "fields": {
+    "name": "Tougo",
+    "description": null
+  }
+},
+{
   "model": "service_development.language",
   "pk": 1,
   "fields": {
@@ -1150,6 +1190,96 @@
   }
 },
 {
+  "model": "service_development.voicefragment",
+  "pk": 106,
+  "fields": {
+    "parent": 42,
+    "language": 2,
+    "audio": "Bassi_EN.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 107,
+  "fields": {
+    "parent": 42,
+    "language": 3,
+    "audio": "Bassi_FR.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 108,
+  "fields": {
+    "parent": 43,
+    "language": 2,
+    "audio": "Boussou_EN.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 109,
+  "fields": {
+    "parent": 43,
+    "language": 3,
+    "audio": "Boussou_FR.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 112,
+  "fields": {
+    "parent": 45,
+    "language": 2,
+    "audio": "Gourcy_EN.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 113,
+  "fields": {
+    "parent": 45,
+    "language": 3,
+    "audio": "Gourcy_FR.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 114,
+  "fields": {
+    "parent": 46,
+    "language": 2,
+    "audio": "Leba_EN.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 115,
+  "fields": {
+    "parent": 46,
+    "language": 3,
+    "audio": "Leba_FR.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 118,
+  "fields": {
+    "parent": 48,
+    "language": 2,
+    "audio": "Tougo_EN.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 119,
+  "fields": {
+    "parent": 48,
+    "language": 3,
+    "audio": "Tougo_FR.wav"
+  }
+},
+{
   "model": "service_development.voiceservicesubelement",
   "pk": 6,
   "fields": {
@@ -1179,8 +1309,8 @@
   "fields": {
     "service": 2,
     "creation_date": "2020-04-27T07:23:31.193Z",
-    "modification_date": "2020-04-27T07:24:12.255Z",
-    "name": "Select region",
+    "modification_date": "2020-04-30T10:47:55.197Z",
+    "name": "Select community",
     "description": "",
     "voice_label": 31
   }
@@ -1191,10 +1321,10 @@
   "fields": {
     "service": 2,
     "creation_date": "2020-04-27T07:23:31.195Z",
-    "modification_date": "2020-04-27T07:24:12.258Z",
-    "name": "One",
+    "modification_date": "2020-04-30T10:47:55.199Z",
+    "name": "Bassi",
     "description": "",
-    "voice_label": 11
+    "voice_label": 42
   }
 },
 {
@@ -1203,10 +1333,10 @@
   "fields": {
     "service": 2,
     "creation_date": "2020-04-27T07:23:31.195Z",
-    "modification_date": "2020-04-27T07:24:12.259Z",
-    "name": "Two",
+    "modification_date": "2020-04-30T10:47:55.200Z",
+    "name": "Boussou",
     "description": "",
-    "voice_label": 12
+    "voice_label": 43
   }
 },
 {
@@ -1351,6 +1481,42 @@
     "name": "weather alert",
     "description": "",
     "voice_label": 39
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 27,
+  "fields": {
+    "service": 2,
+    "creation_date": "2020-04-30T10:47:55.201Z",
+    "modification_date": "2020-04-30T10:47:55.201Z",
+    "name": "Gourcy",
+    "description": "",
+    "voice_label": 45
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 28,
+  "fields": {
+    "service": 2,
+    "creation_date": "2020-04-30T10:47:55.202Z",
+    "modification_date": "2020-04-30T10:47:55.202Z",
+    "name": "Leba",
+    "description": "",
+    "voice_label": 46
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 29,
+  "fields": {
+    "service": 2,
+    "creation_date": "2020-04-30T10:47:55.202Z",
+    "modification_date": "2020-04-30T10:47:55.202Z",
+    "name": "Tougo",
+    "description": "",
+    "voice_label": 48
   }
 },
 {
@@ -1515,6 +1681,30 @@
   "fields": {
     "parent": 23,
     "_redirect": 6
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 27,
+  "fields": {
+    "parent": 12,
+    "_redirect": 15
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 28,
+  "fields": {
+    "parent": 12,
+    "_redirect": 15
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 29,
+  "fields": {
+    "parent": 12,
+    "_redirect": 15
   }
 },
 {
